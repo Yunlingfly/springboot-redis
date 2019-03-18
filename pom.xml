@@ -46,11 +46,13 @@
             <version>2.1.2</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
+            <version>6.0.6</version>
         </dependency>
+
         <!-- 配置阿里druid连接池，通过改变spring.datasource.type设置数据源 -->
         <dependency>
             <groupId>com.alibaba</groupId>
