@@ -5,6 +5,10 @@ spring:
   cache:
     type: redis
   redis:
+    # 集群版
+#    cluster:
+#      nodes: 127.0.0.1:6379, 127.0.0.1:6380, 127.0.0.1:6381
+#      max-redirects: 3
     # 连接超时时间（毫秒）
     timeout: 10000
     # Redis数据库索引（默认为0）
